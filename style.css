@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(68, 9, 9);
+    position: relative;
+}
+
+#bt {
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    right: 10px;
+}
+
+#play {
+    height: 12vh;
+    width: 12vw;
+    border: 5px solid rgb(119, 128, 0);
+    border-radius: 50%;
+    font-size: 22px;
+    background-color: rgb(189, 145, 79);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#guess {
+    font-size: 45px;
+    color: rgb(221, 226, 225);
+    position: absolute;
+    top: 70px;
+    left: 470px;
+}
+
+hr {
+    position: relative;
+    top: 240px;
+
+}
+
+.box {
+    height: 100px;
+    width: 160px;
+    background-color: rgb(100, 89, 93);
+    border: 5px solid rgb(24, 18, 18);
+    position: absolute;
+    top: 190px;
+    left: 540px;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+#selectNo {
+    height: 15vh;
+    width: 15vw;
+    position: absolute;
+    top: 340px;
+    left: 200px;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: rgb(189, 145, 79);
+    font-size: 50px;
+    text-align: center;
+}
+
+#check {
+    position: absolute;
+    height: 50px;
+    width: 120px;
+    top: 480px;
+    left: 240px;
+    font-size: 25px;
+    border: 5px solid rgba(82, 83, 6, 0.829);
+    border-radius: 10px;
+    background-color: rgb(209, 152, 66);
+}
+
+.msg {
+    position: absolute;
+    top: 310px;
+    left: 60vw;
+    color: white;
+    font-size: 35px;
+
+}
+
+.chance {
+    position: absolute;
+    top: 420px;
+    left: 60vw;
+    font-size: 25px;
+    color: white;
+}
+
+.scr {
+    position: absolute;
+    top: 460px;
+    left: 60vw;
+    font-size: 25px;
+    color: white;
+}
